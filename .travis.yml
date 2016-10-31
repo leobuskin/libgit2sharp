@@ -34,4 +34,4 @@ branches:
 # Notify of build changes
 notifications:
  email:
-  - emeric.fermas@gmail.com
+  - leonardbuskin@gmail.com
