@@ -180,5 +180,5 @@ after_test:
 notifications:
 - provider: Email
   to:
-    - emeric.fermas@gmail.com
+    - leonardbuskin@gmail.com
   on_build_status_changed: true
