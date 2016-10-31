@@ -6,12 +6,12 @@
     <authors>$author$</authors>
     <owners>nulltoken</owners>
     <licenseUrl>https://github.com/libgit2/libgit2sharp/raw/master/LICENSE.md</licenseUrl>
-    <projectUrl>https://github.com/libgit2/libgit2sharp/</projectUrl>
+    <projectUrl>https://github.com/leobuskin/libgit2sharp-ssh/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>https://github.com/libgit2/libgit2sharp/blob/master/CHANGES.md#libgit2sharp-changes</releaseNotes>
     <iconUrl>https://github.com/libgit2/libgit2sharp/raw/master/square-logo.png</iconUrl>
-    <tags>libgit2 git wrapper bindings API dvcs vcs</tags>
+    <tags>libgit2 git wrapper bindings API dvcs vcs ssh</tags>
   </metadata>
   <files>
     <file src="..\README.md" target="App_Readme\LibGit2Sharp.README.md" />
