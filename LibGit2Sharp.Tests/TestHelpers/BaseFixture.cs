@@ -430,7 +430,7 @@ namespace LibGit2Sharp.Tests.TestHelpers
             Assert.Equal(@from ?? ObjectId.Zero, reflogEntry.From);
 
             Assert.Equal(committer.Email, reflogEntry.Committer.Email);
-            Assert.InRange(reflogEntry.Committer.When, before, DateTimeOffset.Now);
+            Assert.InRange(reflogEntry.Committer.When, before, DateTimeOffset.Now.AddSeconds(1));
         }
 
         protected static void EnableRefLog(IRepository repository, bool enable = true)
