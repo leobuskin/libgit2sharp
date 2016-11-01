@@ -496,6 +496,8 @@ namespace LibGit2Sharp.Core
 
         [DllImport(libgit2)]
         internal static extern void git_cred_free(IntPtr cred);
+
+        [DllImport(libgit2)]
         internal static extern int git_cred_ssh_key_new(
             out IntPtr cred,
             [MarshalAs(UnmanagedType.CustomMarshaler, MarshalCookie = UniqueId.UniqueIdentifier, MarshalTypeRef = typeof(StrictUtf8Marshaler))] string username,
