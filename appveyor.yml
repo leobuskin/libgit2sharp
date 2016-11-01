@@ -11,11 +11,11 @@ clone_folder: C:\projects\libgit2sharp
 
 environment:
   coveralls_token:
-    secure: ixIsBslo9NheDb5lJknF58EYdgvZ0r3/L0ecRiXjfXmjHBLvoSU6/ZRwaMM+BAlG
+    secure: yJeN1Bg1gr+uMQwGuyI0eB1DaOrYFlCGdFvsxQ+ghRY1WYcTtxrmYVWET2YHZHkO
   coverity_token:
-    secure: nuzUT+HecXGIi3KaPd/1hgFEZJan/j6+oNbPV75JKjk=
+    secure: Qt0nW2AGSg53C5CtP/qjXShqq8GJQIzeKqV6bPbTLRk=
   coverity_email:
-    secure: eGVilNg1Yuq+Xj+SW8r3WCtjnzhoDV0sNJkma4NRq7A=
+    secure: SdBQ5hDR0q/uA+NNJPiKM5nv606Q2zJOg0BlAP2hwds=
   version : 0.23.0
   matrix:
   - xunit_runner: xunit.console.x86.exe
@@ -172,7 +172,7 @@ after_test:
         --form "file=@$Env:APPVEYOR_BUILD_FOLDER\$Env:APPVEYOR_PROJECT_NAME.zip" `
         --form version="$Env:APPVEYOR_REPO_COMMIT" `
         --form description="CI server scheduled build." `
-        https://scan.coverity.com/builds?project=libgit2%2Flibgit2sharp
+        https://scan.coverity.com/builds?project=leobuskin%2Flibgit2sharp-ssh
 
         cat .\curl-out.txt
     }
