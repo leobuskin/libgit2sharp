@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
   <metadata minClientVersion="2.7">
-    <id>$id$</id>
+    <id>$id$-SSH</id>
     <version>$version$</version>
     <authors>$author$</authors>
     <owners>nulltoken</owners>
@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>https://github.com/libgit2/libgit2sharp/blob/master/CHANGES.md#libgit2sharp-changes</releaseNotes>
-    <iconUrl>https://github.com/libgit2/libgit2sharp/raw/master/square-logo.png</iconUrl>
+    <iconUrl>https://github.com/leobuskin/libgit2sharp-ssh/raw/master/square-logo.png</iconUrl>
     <tags>libgit2 git wrapper bindings API dvcs vcs ssh</tags>
   </metadata>
   <files>

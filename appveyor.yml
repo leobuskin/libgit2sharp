@@ -137,7 +137,7 @@ after_test:
                         -nf Core\UniqueIdentifier.cs `
                         -nf Properties\AssemblyInfo.cs `
                         -r .. `
-                        -u 'https://raw.githubusercontent.com/libgit2/libgit2sharp/{0}/%var2%' }
+                        -u 'https://raw.githubusercontent.com/leobuskin/libgit2sharp-ssh/{0}/%var2%' }
 
       Add-Type -Path "$Env:APPVEYOR_BUILD_FOLDER\LibGit2Sharp\bin\Release\LibGit2Sharp.dll"
       Write-Host "LibGit2Sharp version = $([LibGit2Sharp.GlobalSettings]::Version)" -ForegroundColor "Magenta"
