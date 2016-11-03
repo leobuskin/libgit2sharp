@@ -16,7 +16,6 @@ environment:
     secure: Qt0nW2AGSg53C5CtP/qjXShqq8GJQIzeKqV6bPbTLRk=
   coverity_email:
     secure: SdBQ5hDR0q/uA+NNJPiKM5nv606Q2zJOg0BlAP2hwds=
-  version : 0.23.0
   matrix:
   - xunit_runner: xunit.console.x86.exe
     Arch: 32
