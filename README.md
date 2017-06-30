@@ -1,5 +1,5 @@
 # LibGit2Sharp (+SSH)
-
+ 
 **LibGit2Sharp brings all the might and speed of [libgit2][libgit2], a native Git implementation, to the managed world of .NET and Mono.**
 
  [libgit2]: http://libgit2.github.com/
